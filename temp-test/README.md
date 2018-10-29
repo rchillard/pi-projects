@@ -2,15 +2,15 @@
 The purpose of this small experiment is to see if we can get a Node implementation working with our Arduino Mini Pro.  This guide is written for Linux host machines.  Please consult the johnny-five docs for further guidance on OSX or Windows.
 
 ## Equipment
-Arduino Pro Mini 5v (ATmega328 Micro-controller, 16MHz)
-FT232 (FTDI) - USB to RS232 Adapter, 6 pins (1 DTR Reset Pin)
-DS18b20 Temperature Probe (Arduino Compatible Adapter)
-Host Machine (Laptop or Raspberry Pi)
+* Arduino Pro Mini 5v (ATmega328 Micro-controller, 16MHz)
+* FT232 (FTDI) - USB to RS232 Adapter, 6 pins (1 DTR Reset Pin)
+* DS18b20 Temperature Probe (Arduino Compatible Adapter)
+* Host Machine (Laptop or Raspberry Pi)
 
 ## Resources
-Library for Node on Arduino (johnny-five): https://github.com/rwaldron/johnny-five
-Firmata builder: http://firmatabuilder.com/
-Google sheet/API interaction: https://www.twilio.com/blog/2017/03/google-spreadsheets-and-javascriptnode-js.html
+* Library for Node on Arduino (johnny-five): https://github.com/rwaldron/johnny-five
+* Firmata builder: http://firmatabuilder.com/
+* Google sheet/API interaction: https://www.twilio.com/blog/2017/03/google-spreadsheets-and-javascriptnode-js.html
 
 ## Setup
 Step-by-step guide to getting this project up and running from scratch, assuming little knowledge of microcontrollers.
