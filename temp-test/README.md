@@ -19,7 +19,7 @@ Step-by-step guide to getting this project up and running from scratch, assuming
 1. Connect your Ardino, FT232, and temperature probe together
 Need to add picture here
 1. Plug this daisy-chain of devices into your host machine
-1. Download the Arduino IDE or install it Linux: `<sudo apt install arduino>`
+1. Download the Arduino IDE or install it Linux: `sudo apt install arduino`
 1. From within the IDE, select File > Examples > Firmata > StandardFirmataPlus
 1. Compile the Sketch that is presented to you (save if necessary)
 1. Upload to the Arduino (you will the LEDs on the device flicker rapidly)
@@ -31,7 +31,7 @@ Need to add picture here
 1. Copy the ConfigurableFirmata.ino from here:
 1. Compile and upload the Sketch to the Arduino (you may receive a low memory warning)
 1. Copy this file locally: https://github.com/rchillard/pi-projects/blob/master/temp-test/temperature-ds18b20.js
-1. Run `<node temperature-ds18b20.js>`
+1. Run `node temperature-ds18b20.js`
 1. You should see console output with the temperature in celsius
 
 ### Posting Data to Google Sheets
@@ -39,4 +39,4 @@ Need to add picture here
 1. Follow this tutorial for establishing an account and reading test data: https://www.twilio.com/blog/2017/03/google-spreadsheets-and-javascriptnode-js.html
 1. Copy this file locally: https://github.com/rchillard/pi-projects/blob/master/temp-test/temperature-logger.js
 1. Remember to update the spreadsheet reference per the previous tutorial instructions
-1. Run `<node temperature-logger.js>`
+1. Run `node temperature-logger.js`
