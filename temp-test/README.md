@@ -32,6 +32,7 @@ Need to add picture here
 1. Copy the ConfigurableFirmata.ino from here:
 1. Compile and upload the Sketch to the Arduino (you may receive a low memory warning)
 1. Copy this file locally: https://github.com/rchillard/pi-projects/blob/master/temp-test/temperature-ds18b20.js
+1. Install node packages required `npm install google-spreadsheet johnny-five --save`
 1. Run `node temperature-ds18b20.js`
 1. You should see console output with the temperature in celsius
 
