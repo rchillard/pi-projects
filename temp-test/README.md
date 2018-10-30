@@ -9,6 +9,7 @@ The purpose of this small experiment is to see if we can get a Node implementati
 
 ## Resources
 * Library for Node on Arduino (johnny-five): https://github.com/rwaldron/johnny-five
+* Temperature sensor doc within johnny-five: http://johnny-five.io/api/thermometer/
 * Firmata builder: http://firmatabuilder.com/
 * Google sheet/API interaction: https://www.twilio.com/blog/2017/03/google-spreadsheets-and-javascriptnode-js.html
 
