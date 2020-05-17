@@ -27,11 +27,13 @@ Reboot to finish overclocking:
 Most overclocking issues show up immediately with a failure to boot. If this occurs, hold down the SHIFT key during the next boot.
 
 ### Desktop Environment
-You'll want to use flatpak applications:
-- [Setup Flatpak](https://www.flatpak.org/setup/Raspbian/)
-- [Flatpak Hub](https://flathub.org/)
+Considering adding the following items to your top panel
+
+- 
 
 ### Critical Software
-Flatpak support
 Firefox
+`sudo apt install firefox-esr`
+
 VSCodium
+script TBD
