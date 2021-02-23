@@ -1,0 +1,31 @@
+{
+  "name": "temperature-sensor",
+  "version": "1.0.0",
+  "description": "Temperature sensor for a Raspberry Pi",
+  "main": "temperature-logger.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rchillard/pi-projects.git"
+  },
+  "keywords": [
+    "raspberrypi",
+    "sensor",
+    "temperature"
+  ],
+  "author": "RCH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rchillard/pi-projects/issues"
+  },
+  "homepage": "https://github.com/rchillard/pi-projects#readme",
+  "dependencies": {
+    "google-spreadsheet": "^3.1.15",
+    "johnny-five": "^2.0.0"
+  }
+}
