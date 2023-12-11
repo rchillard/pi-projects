@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/rchillard/pi-projects#readme",
   "dependencies": {
-    "google-spreadsheet": "^3.1.15",
+    "google-spreadsheet": "^4.1.1",
     "johnny-five": "^2.0.0"
   }
 }
